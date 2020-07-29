@@ -1,10 +1,4 @@
 import json
-import requests
-
-HEADER = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWhhaGF5ZXNzcyIsImV4cCI6MzMxNTIzMDU2NjMsImlhdCI6MTU5NTM3OTY2M30.PbRYRGMxBvMTlMEY-3VM8vqTfUkfG0m2hwspbsQsPidAUypMq5YbQrvJNIybbUUzJlYiQU3bYtUx5FZ6WHkqIA"
-}
 
 with open("sentences.txt", "r", encoding="utf-8") as text_file:
     sentences = text_file.readlines()
