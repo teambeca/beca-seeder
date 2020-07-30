@@ -26,4 +26,4 @@ pip install pandas
 #### Anaconda veya Miniconda kullanmanız önerilir.
 
 ## Lisans
-[MIT License](LICENSE)
+[Apache License 2.0](LICENSE)
