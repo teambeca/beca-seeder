@@ -10,5 +10,20 @@ BECA takımı ve Baazi uygulaması hakkında daha bilgi almak için, [tıklayın
 
 ## Başlangıç
 
+BECA Seeder, Python dilinde BECA API'ı bazı sabit verileri girmek için yapılmıştır.
+
+## Gereksinimler
+
+Seeder'ı çalıştırabilmek için, sisteminize Python'un (```version : 3.8```) kurulu olması gerkemektedir.
+
+Gerekli kütüphaneleri kurmak için aşşağıda yazılı komutları verebilirsiniz.
+
+```
+pip install jsonlib
+pip install pandas
+```
+
+#### Anaconda veya Miniconda kullanmanız önerilir.
+
 ## Lisans
 [Apache License 2.0](LICENSE)
